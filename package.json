@@ -1,0 +1,45 @@
+{
+  "name": "liquality-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "frontend-install": "npm install --prefix frontend",
+    "frontend": "npm start --prefix frontend",
+    "dev": "npm run frontend",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "color": "^3.1.2",
+    "css.escape": "^1.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "precss": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.3.0",
+    "react-calendar": "3.0.0-beta.5",
+    "react-dom": "^16.13.0",
+    "react-prefixer": "^2.0.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-select": "^3.0.8",
+    "react-spinners": "^0.6.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.4.1",
+    "universal-cookie": "^4.0.3",
+    "url-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.3.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

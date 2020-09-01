@@ -1,0 +1,44 @@
+.rate {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.rate h2 {
+  text-align: center;
+}
+
+.select-field {
+  float: right;
+}
+
+.select-field label {
+  margin-right: 10px;
+}
+
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  padding: 5;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
+}
+
+td:nth-child(3),
+td:nth-child(6),
+td:nth-child(7) {
+  text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
